@@ -1,4 +1,4 @@
-import com.sun.org.apache.xpath.internal.SourceTree;
+//import com.sun.org.apache.xpath.internal.SourceTree;
 
 import java.awt.SystemTray;
 import java.util.concurrent.ThreadLocalRandom;
@@ -17,48 +17,58 @@ public class WriteLoops {
 
     public int oneToFive() {
         int w = 0;
-
+        String output;
         // Write a FOR loop that counts from 1 to 10.
             // calling
-            w = w + 1;
+           for (w=0; w<=4; w++){
+               
+           
+         
+            
             // each time through the loop
 
         // this will tell the test how many times the loop executed.
-        return w;
-    }
+        
+    }return w;
+}
 
     public int oneToTen() {
         int w = 0;
+         for (w=0; w<=9; w++){
+               
+           
+           
+            // each time through the loop
 
-        // Write a FOR loop that counts from 1 to 10.
-        // calling
-        w = w + 1;
-        // each time through the loop
+        // this will tell the test how many times the loop executed.
         
-        return w;
-    }
+    } return w;
+}
 
     public int startAtTwentyOne() {
-        int w = 0;
-
+        int w = 1;
+         
+        for (w=1; w <= 10; w++){
         // Write a FOR loop that makes 10 iterations, start at 21.
         // calling
-        w = w + 1;
+        
         // each time through the loop
         
-        return w;
-    }
+        
+    } return w;
+}
 
     public int countDown() {
-        int w = 0;
-
+        int w = 1;
+        for (w=1; w <= 99; ++w){
         // Write a FOR loop that counts down from 100 to 0.
         // calling
-        w = w + 1;
+        
         // each time through the loop
         
-        return w;
-    }
+       
+    } return w;
+}
 
     public int byTwoTo32() {
         int w = 0;

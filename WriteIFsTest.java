@@ -56,12 +56,14 @@ public class WriteIFsTest
     public void TestTherm()
     {
         WriteIFs writeIFs1 = new WriteIFs();
+        
         assertEquals("heating", writeIFs1.thermoSTAT(62));
     }
     @Test
     public void TestTherm1()
     {
         WriteIFs writeIFs1 = new WriteIFs();
+        
         assertEquals("cooling", writeIFs1.thermoSTAT(81));
     }
     @Test
